@@ -46,9 +46,17 @@ print(6 == sumando() )
 
 Como podemos observar, el valor que devuelve la función puede ser utilizada directamente para varias operaciones.
 
-Definamos una función que utiliza argumentos, en este caso es una función simple que indica si un número natural es múltiplo de 2.
+Definamos una función que utiliza argumentos, en este caso es una función simple que indica si un número natural es a la vez par.
 
-
+``` python
+def entero_par(numero):
+    
+    if numero % 2 == 0 and numero > 0:
+        return True
+    else:
+        return False
+  
+``
 
 Ahora vamos a definir una función que toma un número `num` y devuelve una lista en donde cada posición es el resultado de potenciar el número, con el valor de la posición.
 
