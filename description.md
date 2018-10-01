@@ -10,6 +10,12 @@ En python para definir una función es necesario asignarle un nombre y opcionalm
 Para utilizar una función, esta debe ser llamada desde el programa, con el nombre asignado en la definición y en el caso de tener argumentos, le deben ser asignado entre parentesis.
 
 
+A continuación vamos a definir una función que suma dos números.
+
+``` python
+def sumando():
+    return 2 * 3
+```
 
 
 
