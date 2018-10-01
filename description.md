@@ -44,12 +44,12 @@ print(6 == sumando() )
 ** > True **
 
 ``` python
-if sumando < 3:
+if sumando() < 3:
     print('es mayor a 3')
     
 else:
     print('no es mayor a 3')
 
 ```
-  _Salida:_
+_Salida:_
 ** > no es mayor a 3 **
