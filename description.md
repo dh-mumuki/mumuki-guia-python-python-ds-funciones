@@ -32,8 +32,8 @@ mi_numero = sumando()
 
 print(mi_numero)
 ```
-  _Salida:_
-**> 6 **
+_Salida:_
+** > 6 **
 
 ``` python
 mi_numero = sumando()
@@ -41,7 +41,7 @@ mi_numero = sumando()
 print(6 == sumando() )
 ```
   _Salida:_
-**> True **
+** > True **
 
 ``` python
 if sumando < 3:
@@ -52,4 +52,4 @@ else:
 
 ```
   _Salida:_
-**> no es mayor a 3 **
+** > no es mayor a 3 **
