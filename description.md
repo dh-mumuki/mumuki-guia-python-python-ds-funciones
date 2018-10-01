@@ -17,5 +17,6 @@ def sumando():
     return 2 * 3
 ```
 
+Definimos una función cuyo nombre es sumando, para definirla hicimos el llamado a `def` y posteriormente elegimos el nombre *sumando* 
 
 
