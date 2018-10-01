@@ -23,6 +23,6 @@ Despúes definimos el código, que consta de una única instrucción `return` y 
 
 Este `return` devuelve un valor (el producto de dos números), cada vez que es llamada.
 
-Cuando dentro de la función se ejecuta un return, la función termina su tarea.
+Cuando dentro de la función se ejecuta un `return`, la función termina su tarea.
 
 
