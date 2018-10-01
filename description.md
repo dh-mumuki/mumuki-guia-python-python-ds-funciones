@@ -69,3 +69,19 @@ print(elevado(2))
   _Salida:_
 **[1, 2, 4, 8, 16, 32, 64, 128, 256, 512]**
 
+
+Entonces, definimos una función que toma un numero `num`, a este valor se le llama argumento.
+
+Dentro de la función lo primero que hacemos es definir una lista vacía, esta lista la definimos vacía para poblarla durante la iteración.
+
+La idea es que a medida que iteramos sobre el `range(10)` el valor de `i` cambie sucesivamente, sumando 1 en cada iteracion. 
+
+Este valor de `i` lo utilizamos para elevar el numero `num` que pedimos como argumento de la función.
+
+El resultado de elevar el número lo guardamos en la variable `num_elevado` y utilizamos el método `append` para integrarlo a la lista, durante la iteración.
+
+Una vez que la iteración termina, la función devuelve la lista con los valores calculados.
+
+
+
+
