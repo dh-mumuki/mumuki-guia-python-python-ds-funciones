@@ -52,4 +52,4 @@ else:
 
 ```
 _Salida:_
-** > no es mayor a 3 **
+**> no es mayor a 3**
