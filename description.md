@@ -19,8 +19,8 @@ def sumando():
 
 Definimos una función cuyo nombre es sumando, para definirla, hicimos el llamado a `def` y posteriormente elegimos el nombre **sumando**, a continuación utilizamos los paréntesis vacios, que indican que la función no recibe argumentos.
 
-Despúes definimos el código, que consta de un `return` y una operación de multiplicación entre dos números. 
+Despúes definimos el código, que consta de una única instrucción `return` y una operación de multiplicación entre dos números. 
 
-Todo el código al siguiente nivel de indentación de la definición de la función corresponde al dominio de la función.
+Este `return` devuelve un valor (el producto de dos números), cada vez que es llamada.
 
 
