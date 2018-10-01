@@ -25,4 +25,13 @@ Este `return` devuelve un valor (el producto de dos números), cada vez que es l
 
 Cuando dentro de la función se ejecuta un `return`, la función termina su tarea.
 
+Ahora vamos a realizar un llamado a la función definida mas arriba:
+
+``` python
+
+mi_numero = sumando()
+
+print(mi_numero)
+
+```
 
