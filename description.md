@@ -28,10 +28,8 @@ Cuando dentro de la función se ejecuta un `return`, la función termina su tare
 Ahora vamos a realizar un llamado a la función definida mas arriba:
 
 ``` python
-
 mi_numero = sumando()
 
 print(mi_numero)
-
 ```
 
