@@ -25,7 +25,7 @@ Este `return` devuelve un valor (el producto de dos números), cada vez que es l
 
 Cuando dentro de la función se ejecuta un `return`, la función termina su tarea.
 
-Ahora vamos a realizar un llamado a la función definida mas arriba:
+Ahora vamos a realizar una serie de llamados a la función definida mas arriba:
 
 ``` python
 mi_numero = sumando()
@@ -52,4 +52,4 @@ else:
 _Salida:_
 **> no es mayor a 3**
 
-
+Como podemos observar, el valor que devuelve la función puede ser utilizada como 
