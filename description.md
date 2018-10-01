@@ -46,6 +46,9 @@ print(6 == sumando() )
 
 Como podemos observar, el valor que devuelve la función puede ser utilizada directamente para varias operaciones.
 
+Definamos una función que utiliza argumentos, en este caso es una función simple que indica si un número natural es múltiplo de 2.
+
+
 
 Ahora vamos a definir una función que toma un número `num` y devuelve una lista en donde cada posición es el resultado de potenciar el número, con el valor de la posición.
 
@@ -69,8 +72,8 @@ print(elevado(2))
   _Salida:_
 **[1, 2, 4, 8, 16, 32, 64, 128, 256, 512]**
 
-
-Entonces, definimos una función que toma un numero `num`, a este valor se le llama argumento.
+#### Expicación
+Definimos una función que toma un numero `num`, a este valor se le llama argumento.
 
 Dentro de la función lo primero que hacemos es definir una lista vacía, esta lista la definimos vacía para poblarla durante la iteración.
 
