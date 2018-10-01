@@ -33,7 +33,7 @@ mi_numero = sumando()
 print(mi_numero)
 ```
 _Salida:_
-** > 6 **
+**> 6**
 
 ``` python
 mi_numero = sumando()
@@ -41,7 +41,7 @@ mi_numero = sumando()
 print(6 == sumando() )
 ```
   _Salida:_
-** > True **
+**> True**
 
 ``` python
 if sumando() < 3:
