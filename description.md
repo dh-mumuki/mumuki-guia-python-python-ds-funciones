@@ -46,10 +46,10 @@ print(6 == sumando() )
 ``` python
 if sumando() < 3:
     print('es mayor a 3')
-    
 else:
     print('no es mayor a 3')
-
 ```
 _Salida:_
 **> no es mayor a 3**
+
+
