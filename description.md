@@ -52,4 +52,6 @@ else:
 _Salida:_
 **> no es mayor a 3**
 
-Como podemos observar, el valor que devuelve la función puede ser utilizada como 
+Como podemos observar, el valor que devuelve la función puede ser utilizada directamente para varias operaciones.
+
+
