@@ -54,7 +54,7 @@ def elevado(num):
     # definimos una lista vacia
     mi_lista = []
     
-    # iteramos en un rango de 10 asignando un valor creciente a i
+    # iteramos en un rango de 10 asignando un valor creciente a i (crece de 1 en 1)
     for i in range(10):
         # elevamos a la potencia dada en i y lo guardamos en num_elevado
         num_elevado = num ** i
