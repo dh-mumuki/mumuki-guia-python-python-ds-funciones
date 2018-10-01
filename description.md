@@ -47,7 +47,7 @@ print(6 == sumando() )
 Como podemos observar, el valor que devuelve la función puede ser utilizada directamente para varias operaciones.
 
 
-Ahora vamos a definir una función que toma un número `num` y devuelve una lista con el resultado de operaciones con ese número.
+Ahora vamos a definir una función que toma un número `num` y devuelve una lista en donde cada posición es el resultado de potenciar el número, con el valor de la posición.
 
 ``` python
 def elevado(num):
@@ -62,6 +62,10 @@ def elevado(num):
         mi_lista.append(num_elevado)
       
     return mi_lista  
-```
 
+# hacemos el llamado a función y lo imprimimos.
+print(elevado(2))
+```
+  _Salida:_
+**[1, 2, 4, 8, 16, 32, 64, 128, 256, 512]**
 
