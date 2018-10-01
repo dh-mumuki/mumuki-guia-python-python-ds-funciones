@@ -43,15 +43,25 @@ print(6 == sumando() )
   _Salida:_
 **> True**
 
-``` python
-if sumando() < 3:
-    print('es mayor a 3')
-else:
-    print('no es mayor a 3')
-```
-_Salida:_
-**> no es mayor a 3**
 
 Como podemos observar, el valor que devuelve la función puede ser utilizada directamente para varias operaciones.
+
+
+Ahora vamos a definir una función que toma un número `num` y devuelve una lista con el resultado de operaciones con ese número.
+
+``` python
+def elevado(num):
+    # definimos una lista vacia
+    mi_lista = []
+    
+    # iteramos en un rango de 10 asignandole el valor de la iteracion a i
+    for i in range(10):
+        # elevamos a la potencia dada en i y lo guardamos en num_elevado
+        num_elevado = num ** i
+        # guardamos al final de la lista el numero elevado a la potencia i
+        mi_lista.append(num_elevado)
+      
+    return mi_lista  
+```
 
 
