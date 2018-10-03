@@ -53,7 +53,7 @@ Como podemos observar, el valor que devuelve la función, que es un numero enter
 
 Un argumento de una función, es una variable que se le entrega desde afuera a una función, o sea cuando hacemos el llamado a la función y puede ser utilizada dentro del ámbito de la función.
 
-Definamos ahora una función que utiliza argumentos, en este caso lo único que va a hacer la función es recibir un valor y devolver su tipo de datos.
+Definamos ahora una función que utiliza argumentos, en este caso lo único que va a hacer la función es recibir un valor e imprimir su tipo de datos.
 
 ``` python
 def imprimir_tipo(argumento):
@@ -85,12 +85,12 @@ imprimir_tipo(un_numero)
 
 ``` python
 # hacemos un llamado a la funcion, dandole a la funcion directamente un entero como un argumento
-imprimir_tipo(un_numero)
+imprimir_tipo(23023213)
 ```
   _Salida:_
 **class 'int'**
 
-
+Como podemos observar, el valor que entregamos entre paréntesis es el que interpreta la función como argumento, además podemos variar el valor de ese argumento y tambien su tipo
 
 Definamos otra función que utiliza argumentos, en este caso es una función simple que indica si un número natural es a la vez par.
 
