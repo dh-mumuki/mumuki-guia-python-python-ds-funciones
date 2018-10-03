@@ -49,7 +49,11 @@ Como podemos observar, el valor que devuelve la función, que es un numero enter
 
 #### Definiendo los argumentos de las funciones.
 
-Un argumento de una función, es una variable que se le entrega desde afuera a una función, o sea cuando hacemos el llamado a la función y puede ser utilizada dentro del ámbito de la función.
+Los argumentos son variables que se les entrega desde afuera a una función, cuando hacemos un llamado.
+
+Se declara entre paréntesis con un nombre asignado por nosotros. 
+
+Este argumento puede ser utilizado dentro del ámbito de la función, según el nombre que le asignamos.
 
 Definamos ahora una función que utiliza argumentos, en este caso lo único que va a hacer la función es recibir un valor e imprimir su tipo de datos.
 
@@ -88,11 +92,9 @@ imprimir_tipo(23023213)
   _Salida:_
 **class 'int'**
 
-Como podemos observar, el valor que entregamos entre paréntesis es el que interpreta la función como argumento, además podemos variar el valor de ese argumento y tambien su tipo
+Como podemos observar, el valor que entregamos entre paréntesis es el que interpreta la función como argumento, además podemos variar el valor de ese argumento y tambien su tipo.
 
 Definamos otra función que utiliza argumentos, en este caso es una función simple que indica si un número natural es a la vez par.
-
-
 
 ``` python
 def entero_par(numero):
@@ -103,6 +105,19 @@ def entero_par(numero):
         return False
   
 ```
+Veamos los posibles llamados a esta función.
+
+
+``` python
+for numero in [1,2,3,4,5]:
+    print(entero_par(numero))
+```
+  _Salida:_
+**False**
+**True**
+**False**
+**True**
+**False**
 
 Ahora vamos a definir una función que toma un número `num` y devuelve una lista en donde cada posición es el resultado de potenciar el número, con el valor de la posición.
 
