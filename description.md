@@ -51,7 +51,50 @@ Como podemos observar, el valor que devuelve la función, que es un numero enter
 
 #### Definiendo los argumentos de las funciones.
 
-Definamos una función que utiliza argumentos, en este caso es una función simple que indica si un número natural es a la vez par.
+Un argumento de una función, es una variable que se le entrega desde afuera a una función, o sea cuando hacemos el llamado a la función y puede ser utilizada dentro del ámbito de la función.
+
+Definamos ahora una función que utiliza argumentos, en este caso lo único que va a hacer la función es recibir un valor y devolver su tipo de datos.
+
+``` python
+def imprimir_tipo(argumento):
+    
+    return print(type(argumento)) 
+  
+```
+
+Ahora realizaremos el llamado a función con distintos argumentos.
+
+``` python
+# Definimos una lista con enteros
+enteros = [1,3,5,7]
+# hacemos un llamado a la funcion, dandole una lista como argumento
+imprimir_tipo(enteros)
+```
+  _Salida:_
+**class 'list'**
+
+``` python
+# Definimos un  entero
+un_numero = 1
+# hacemos un llamado a la funcion, dandole una variable que guarda un entero como argumento
+imprimir_tipo(un_numero)
+```
+  _Salida:_
+**class 'int'**
+
+
+``` python
+# hacemos un llamado a la funcion, dandole a la funcion directamente un entero como un argumento
+imprimir_tipo(un_numero)
+```
+  _Salida:_
+**class 'int'**
+
+
+
+Definamos otra función que utiliza argumentos, en este caso es una función simple que indica si un número natural es a la vez par.
+
+
 
 ``` python
 def entero_par(numero):
