@@ -28,35 +28,40 @@ Cuando dentro de la función se ejecuta un `return`, la función termina su tare
 Ahora vamos a realizar una serie de llamados a la función definida mas arriba:
 
 ``` python
+# se realiza un llamado a la funcion sumando, y se guarda el resultado de la funcion en la variable mi_numero
 mi_numero = sumando()
 
+# se imprime mi_numero
 print(mi_numero)
 ```
 _Salida:_
 **> 6**
 
 ``` python
+# Se realiza el llamado a la funcion sumando, se asigna a mi_numero
 mi_numero = sumando()
-
+# Se evalua una condicion logica, en donde se pregunta si 6 es igual al resultado de la funcion sumando()
 print(6 == sumando() )
 ```
   _Salida:_
 **> True**
 
 
-Como podemos observar, el valor que devuelve la función puede ser utilizada directamente para varias operaciones.
+Como podemos observar, el valor que devuelve la función, que es un numero entero,  puede ser utilizada directamente para realizar varias operaciones.
+
+#### Definiendo los argumentos de las funciones.
 
 Definamos una función que utiliza argumentos, en este caso es una función simple que indica si un número natural es a la vez par.
 
 ``` python
 def entero_par(numero):
-    
+    # evaluacion de las condiciones logicas
     if numero % 2 == 0 and numero > 0:
         return True
     else:
         return False
   
-``
+```
 
 Ahora vamos a definir una función que toma un número `num` y devuelve una lista en donde cada posición es el resultado de potenciar el número, con el valor de la posición.
 
@@ -80,7 +85,7 @@ print(elevado(2))
   _Salida:_
 **[1, 2, 4, 8, 16, 32, 64, 128, 256, 512]**
 
-#### Expicación
+#### Explicación
 Definimos una función que toma un numero `num`, a este valor se le llama argumento.
 
 Dentro de la función lo primero que hacemos es definir una lista vacía, esta lista la definimos vacía para poblarla durante la iteración.
