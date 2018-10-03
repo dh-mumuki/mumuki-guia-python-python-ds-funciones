@@ -38,8 +38,6 @@ _Salida:_
 **> 6**
 
 ``` python
-# Se realiza el llamado a la funcion sumando, se asigna a mi_numero
-mi_numero = sumando()
 # Se evalua una condicion logica, en donde se pregunta si 6 es igual al resultado de la funcion sumando()
 print(6 == sumando() )
 ```
