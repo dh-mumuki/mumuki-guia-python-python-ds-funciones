@@ -39,7 +39,7 @@ _Salida:_
 
 ``` python
 # Se evalua una condicion logica, en donde se pregunta si 6 es igual al resultado de la funcion sumando()
-print(5 == sumando() )
+print(sumando() == 5)
 ```
   _Salida:_
 **> True**
