@@ -25,12 +25,13 @@ Aclaración: Cuando dentro de la función se ejecuta un `return`, la función te
 
 
 Ahora vamos a realizar una serie de llamados a la función definida mas arriba:
+En este caso sumaremos dos y tres y le asignaremos el resultado a una variable. Finalmente, imprimiremos la variable.
 
 ``` python
-# se realiza un llamado a la funcion sumando, y se guarda el resultado de la funcion en la variable mi_numero
+# se realiza un llamado a la funcion **sumando()**,  y se guarda el resultado de la funcion en la **variable mi_numero**
 mi_numero = sumando(2,3)
 
-# se imprime mi_numero
+# se imprime la variable, **mi_numero**
 print(mi_numero)
 ```
 _Salida:_
