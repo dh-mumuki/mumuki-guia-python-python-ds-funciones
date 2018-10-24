@@ -5,9 +5,9 @@ Una función es un conjunto de instrucciones que realizan alguna tarea en partic
 
 Existen múltiples motivaciones para agrupar el código en funciones: si una acción específica debe ser realizada de forma recurrente, para hacer mas legible el código, para dividir un problema en partes, etc.
 
-En python para definir una función es necesario asignarle un nombre y opcionalmente los argumentos. Una función puede devolver uno o mas valores que pueden ser asignados a una variable o utilizarse como parte de una expresión lógica.
+En python para definir una función es necesario asignarle un nombre y opcionalmente los argumentos. Una función puede devolver uno o mas valores que pueden ser asignados a una variable.
 
-Para utilizar una función, ésta debe ser llamada desde el programa, con el nombre asignado en la definición y en el caso de tener argumentos, le deben ser dados entre paréntesis y separados por comas en el caso de que sean más de uno.
+Para utilizar una función, ésta debe ser llamada desde el programa, con el nombre asignado en la definición y en el caso de tener argumentos, le deben ser dados entre paréntesis.
 
 
 A continuación vamos a definir una función que suma dos números.
@@ -17,7 +17,7 @@ def sumando():
     return 2 + 3
 ```
 
-Definimos una función cuyo nombre es **sumando**, para definirla, hicimos el llamado a `def` y posteriormente elegimos el nombre **sumando**, a continuación utilizamos los paréntesis vacios, que indican que la función no recibe argumentos.
+Definimos una función cuyo nombre es **sumando**. Para definirla, hicimos el llamado a `def` y posteriormente elegimos el nombre **sumando**, a continuación utilizamos los paréntesis vacios, que indican que la función no recibe argumentos.
 
 Despúes definimos el código, que consta de una única instrucción `return` y una operación de multiplicación entre dos números. 
 
