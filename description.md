@@ -17,11 +17,11 @@ def sumando():
     return 2 + 3
 ```
 
-Definimos una función cuyo nombre es **sumando**. Para definirla, hicimos el llamado a `def` y posteriormente elegimos el nombre **sumando**, a continuación utilizamos los paréntesis vacios, que indican que la función no recibe argumentos.
+Definimos una función cuyo nombre es **sumando**. Para definirla, primero hicimos el llamado a `def`, luego elegimos el nombre **sumando** y finalmente utilizamos los paréntesis vacios, que indican que la función no recibe argumentos. Recordá siempre colocar los **:** en la primer línea de la definición.
 
-Despúes definimos el código, que consta de una única instrucción `return` y una operación de multiplicación entre dos números. 
+Despúes definimos el bloque de código, que consta de una única instrucción `return` y una operación de sumatoria entre dos números. 
 
-Este `return` devuelve un valor (el producto de dos números), cada vez que es llamada.
+Este `return` devuelve un valor (la suma de dos y tres), cada vez que es llamada.
 
 Cuando dentro de la función se ejecuta un `return`, la función termina su tarea.
 
