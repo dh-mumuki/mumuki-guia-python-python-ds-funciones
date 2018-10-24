@@ -7,7 +7,7 @@ Existen múltiples motivaciones para agrupar el código en funciones: si una acc
 
 En python para definir una función es necesario asignarle un nombre y opcionalmente los argumentos. Una función puede devolver uno o mas valores que pueden ser asignados a una variable o utilizarse como parte de una expresión lógica.
 
-Para utilizar una función, ésta debe ser llamada desde el programa, con el nombre asignado en la definición y en el caso de tener argumentos, le deben ser dados entre paréntesis.
+Para utilizar una función, ésta debe ser llamada desde el programa, con el nombre asignado en la definición y en el caso de tener argumentos, le deben ser dados entre paréntesis y separados por comas en el caso de que sean más de uno.
 
 
 A continuación vamos a definir una función que suma dos números.
