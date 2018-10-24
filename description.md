@@ -67,10 +67,10 @@ def imprimir_tipo(argumento):
 Ahora realizaremos el llamado a función con distintos argumentos.
 
 ``` python
-# Definimos una lista con enteros
-enteros = [1,3,5,7]
+# Definimos una lista
+lista = [1,3,5,7]
 # hacemos un llamado a la funcion, dandole una lista como argumento
-imprimir_tipo(enteros)
+imprimir_tipo(lista)
 ```
   _Salida:_
 **class 'list'**
