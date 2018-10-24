@@ -49,11 +49,11 @@ Como podemos observar, el valor que devuelve la función, que es un numero enter
 
 #### Definiendo los argumentos de las funciones.
 
-Los argumentos son variables que se les entrega desde afuera a una función, cuando hacemos un llamado.
+Los argumentos son variables que se le entrega a una función cuando hacemos un llamado.
 
 Se declara entre paréntesis con un nombre asignado por nosotros. 
 
-Este argumento puede ser utilizado dentro del ámbito de la función, según el nombre que le asignamos.
+Este argumento puede ser utilizado dentro del bloque de código de la función, según el nombre que le asignamos.
 
 Definamos ahora una función que utiliza argumentos, en este caso lo único que va a hacer la función es recibir un valor e imprimir su tipo de datos.
 
