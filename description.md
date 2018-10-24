@@ -14,7 +14,7 @@ A continuación vamos a definir una función que suma dos números.
 
 ``` python
 def sumando():
-    return 2 * 3
+    return 2 + 3
 ```
 
 Definimos una función cuyo nombre es **sumando**, para definirla, hicimos el llamado a `def` y posteriormente elegimos el nombre **sumando**, a continuación utilizamos los paréntesis vacios, que indican que la función no recibe argumentos.
@@ -35,7 +35,7 @@ mi_numero = sumando()
 print(mi_numero)
 ```
 _Salida:_
-**> 6**
+**> 5**
 
 ``` python
 # Se evalua una condicion logica, en donde se pregunta si 6 es igual al resultado de la funcion sumando()
