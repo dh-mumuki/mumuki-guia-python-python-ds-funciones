@@ -13,11 +13,11 @@ Para utilizar una función, ésta debe ser llamada desde el programa, con el nom
 A continuación vamos a definir una función que suma dos números.
 
 ``` python
-def sumando():
-    return 2 + 3
+def sumando(a, b):
+    return a + b
 ```
 
-Definimos una función cuyo nombre es **sumando**. Para definirla, primero hicimos el llamado a `def`, luego elegimos el nombre **sumando** y finalmente utilizamos los paréntesis vacios, que indican que la función no recibe argumentos. Recordá siempre colocar los **:** en la primer línea de la definición.
+Definimos una función cuyo nombre es **sumando**. Para definirla, primero hicimos el llamado a `def`, luego elegimos el nombre **sumando** y finalmente **a** y **b** , dentro de los paréntesis, indican los argumentos de la función . Recordá siempre colocar los **:** en la primer línea de la definición.
 
 Despúes definimos el bloque de código, que consta de una única instrucción `return` y una operación de sumatoria entre dos números. 
 
