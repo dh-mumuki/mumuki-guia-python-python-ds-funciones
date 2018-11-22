@@ -26,7 +26,7 @@ _Salida:_
 **> 5**
 
 ``` python
-# Se evalua una condicion logica, en donde se pregunta si 6 es igual al resultado de la funcion sumando()
+# Se evalua una condición logica, en donde se pregunta si 6 es igual al resultado de la función sumando()
 print(sumando() == 5)
 ```
   _Salida:_
@@ -34,3 +34,7 @@ print(sumando() == 5)
 
 
 Como podemos observar, el valor que devuelve la función, que es un numero entero,  puede ser utilizada directamente para realizar varias operaciones.
+
+<br>
+
+**Definí una función llamada `producto`que multiplique dos números. Probá como funciona multiplicando 4 por 5, pero recordá que debe funcionar para cualquier combinación de números.**
