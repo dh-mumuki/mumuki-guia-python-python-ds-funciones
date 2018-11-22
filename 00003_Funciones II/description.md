@@ -45,3 +45,6 @@ imprimir_tipo(23023213)
 **class 'int'**
 
 Como podemos observar, el valor que entregamos entre paréntesis es el que interpreta la función como argumento, además podemos variar el valor de ese argumento y tambien su tipo.
+
+<br>
+
