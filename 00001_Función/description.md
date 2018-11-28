@@ -14,4 +14,4 @@ print(llamado)
 ```
 
 
-> Supongo que no reconocen la estructura que tiene una forma similar a esta: [x for in lista]. Se llaman Listas por comprensión! No es necesario que lo sepan pero si les interesa pueden ver de que se trata _acá_.
+> Supongo que no reconocen la estructura que tiene una forma similar a esta: [x for x in lista]. Se llaman Listas por comprensión! No es necesario que lo sepan pero si les interesa pueden ver de que se trata _acá_.
