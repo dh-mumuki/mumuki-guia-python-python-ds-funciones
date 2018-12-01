@@ -18,7 +18,7 @@ def elevado(num):
 print(elevado(2))
 ```
   _Salida:_
-**[1, 2, 4, 8, 16, 32, 64, 128, 256, 512]**
+**[1, 2, 4, 8, 16, 32, 64, 128, 256, 512]** 
 
 #### Explicación
 Definimos una función que toma un numero `num`, a este valor se le llama argumento.
