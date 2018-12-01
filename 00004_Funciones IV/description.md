@@ -27,7 +27,9 @@ Es interesante empezar a ver la posibilidad de definir una función e incluirla 
 Animemosnos a utilizar funciones dentro de funciones! Claro que se puede!
 <br>
 Miremos el bloque de código anterior. Podríamos definir una función que encuentre los enteros pares de una lista y los guarde en otra lista. Lo haremos utilizando la función entero_par(), que lo hacía para un número.
+
 <br>
+
 ``` python
 def enteros_pares_en_lista(lista):
   lista_pares = []
