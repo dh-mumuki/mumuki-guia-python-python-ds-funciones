@@ -36,4 +36,4 @@ Una vez que la iteración termina, la función devuelve la lista con los valores
 
 :memo: **Escribí una función recibe una lista y devuelva una tupla con dos listas, una con los números pares y otra con los númeors impares.**
 
-> Cuando definan la función, en el `return`incluyan las dos listas separadas por una coma. `return lista1, lista2`. De esta manera la función devolverá una tupla con ambas listas.
+> Cuando definan la función, en el `return`incluyan las dos listas separadas por una coma: `return lista1, lista2`. De esta manera la función devolverá una tupla con ambas listas.
