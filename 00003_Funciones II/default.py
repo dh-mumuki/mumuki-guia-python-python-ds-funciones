@@ -1,0 +1,1 @@
+def tipo_de_dato(
