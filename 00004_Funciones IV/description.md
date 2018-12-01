@@ -40,4 +40,4 @@ def enteros_pares_en_lista(lista):
 ```
 
 
-:memo:**Text**
+:memo:**Dada la función sumatoria(), que suma los elementos de una lista, escribí una función que cuente los elementos de una lista y una última función que calcule la media de una lista. Recordá reutilizar las funciones.**
