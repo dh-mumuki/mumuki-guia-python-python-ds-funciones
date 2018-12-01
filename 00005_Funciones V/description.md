@@ -23,12 +23,17 @@ print(elevado(2))
 #### Explicación
 Definimos una función que toma un numero `num`, a este valor se le llama argumento.
 
-Dentro de la función lo primero que hacemos es definir una lista vacía, esta lista la definimos vacía para poblarla durante la iteración.
+Dentro de la función lo primero que hacemos es definir una lista vacía, esta lista la definimos vacía para poblarla durante la iteración.<br>
 
-La idea es que a medida que iteramos sobre el `range(10)` el valor de `i` cambie sucesivamente, sumando 1 en cada iteracion. 
+La idea es que a medida que iteramos sobre el `range(10)` el valor de `i` cambie sucesivamente, sumando 1 en cada iteracion. <br>
 
-Este valor de `i` lo utilizamos para elevar el numero `num` que pedimos como argumento de la función.
+Este valor de `i` lo utilizamos para elevar el numero `num` que pedimos como argumento de la función.<br>
 
-El resultado de elevar el número lo guardamos en la variable `num_elevado` y utilizamos el método `append` para integrarlo a la lista, durante la iteración.
+El resultado de elevar el número lo guardamos en la variable `num_elevado` y utilizamos el método `append` para integrarlo a la lista, durante la iteración. <br>
 
 Una vez que la iteración termina, la función devuelve la lista con los valores calculados.
+<br>
+
+:memo: **Escribí una función recibe una lista y devuelva una tupla con dos listas, una con los números pares y otra con los númeors impares.**
+
+> Cuando definan la función, en el `return`incluyan las dos listas separadas por una coma. `return lista1, lista2`. De esta manera la función devolverá una tupla con ambas listas.
