@@ -34,3 +34,5 @@ print(sumando() == 5)
 
 
 Como podemos observar, el valor que devuelve la función, que es un numero entero,  puede ser utilizada directamente para realizar varias operaciones.
+<br>
+:memo:**Definan su primer función. La función debe calcular el prodcuto entre dos números**
