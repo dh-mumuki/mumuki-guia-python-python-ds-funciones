@@ -15,15 +15,15 @@ Veamos los posibles llamados a esta función.
 ``` python
 for numero in [1,2,3,4,5]:
     print(entero_par(numero))
+ム
+>False
+>True
+>False
+>True
+>False
 ```
-  _Salida:_<br>
-**>>False**<br>
-**>>True**<br>
-**>>False**<br>
-**>>True**<br>
-**>>False**<br>
 <br>
-Es interesante empezar a ver la posibilidad de definir una función e incluirla en ditintas estructuras. Aquí es donde se ve la potencia de las funciones y como se reutiliza el código. Para ser eficientes en esto, una buena práctuca es definir funciones que hagan UNA tarea particular y simple, para poder utilizarlas libremente y sin restricciones.<br>
+Es interesante empezar a ver la posibilidad de definir una función e incluirla en ditintas estructuras. Aquí es donde se ve la potencia de las funciones y como se reutiliza el código. Para ser eficientes en esto, una buena práctica es definir funciones que hagan UNA tarea particular y simple, para poder utilizarlas libremente y sin restricciones.<br>
 Animemosnos a utilizar funciones dentro de funciones! Claro que se puede!
 <br>
 Miremos el bloque de código anterior. Podríamos definir una función que encuentre los enteros pares de una lista y los guarde en otra lista. Lo haremos utilizando la función entero_par(), que lo hacía para un número.
@@ -40,4 +40,4 @@ def enteros_pares_en_lista(lista):
 ```
 
 
-:memo:**Dada la función sumatoria(), que suma los elementos de una lista, escribí una función que cuente los elementos de una lista y una última función que calcule la media de una lista. Recordá reutilizar las funciones.**
+> :memo:**Dada la función sumatoria(), que suma los elementos de una lista, escribí una función que cuente los elementos de una lista y una última función que calcule la media de una lista. Recordá reutilizar las funciones.**
