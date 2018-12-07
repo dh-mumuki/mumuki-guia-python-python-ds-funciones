@@ -1,6 +1,6 @@
-#### Definiendo los argumentos de las funciones.
+#### Definiendo los argumentos de las funciones
 
-Los argumentos son variables que se le entrega a una función cuando hacemos un llamado.
+Como vimos en los ejemplos anteriores, los argumentos son variables que se le entrega a una función cuando hacemos un llamado.
 
 Se declara entre paréntesis con un nombre asignado por nosotros. 
 
@@ -16,35 +16,38 @@ def imprimir_tipo(argumento):
   
 ```
 
-Ahora realizaremos el llamado a función con distintos argumentos.
+Ahora realizaremos el llamado a función con distintos argumentos. <br>
 
 ``` python
 # Definimos una lista
 lista = [1,3,5,7]
 # hacemos un llamado a la funcion, dandole una lista como argumento
 imprimir_tipo(lista)
+
+ム
+> class 'list'
 ```
-  _Salida:_
-**class 'list'**
 
 ``` python
 # Definimos un  entero
 un_numero = 1
 # hacemos un llamado a la funcion, dandole una variable que guarda un entero como argumento
 imprimir_tipo(un_numero)
+
+ム
+> class "int"
 ```
-  _Salida:_
-**class 'int'**
 
 
 ``` python
 # hacemos un llamado a la funcion, dandole a la funcion directamente un entero como un argumento
 imprimir_tipo(23023213)
-```
-  _Salida:_
-**class 'int'**
 
-Como podemos observar, el valor que entregamos entre paréntesis es el que interpreta la función como argumento, además podemos variar el valor de ese argumento y tambien su tipo.
+ム
+> class "int"
+```
+
+Como podemos observar, el valor que entregamos entre paréntesis es el que interpreta la función como argumento. Además podemos variar el valor de ese argumento y tambien su tipo.
 
 <br>
-:memo: **Definí una función  que devuelva `True` si el tipo de dato es _string_, `False` si es un _integer_,  `True` si es un _float_ y`False` si es un _booleano_**.
+> :memo: **Definí una función  que devuelva `True` si el tipo de dato es _string_, `False` si es un _integer_,  `True` si es un _float_ y`False` si es un _booleano_**.
