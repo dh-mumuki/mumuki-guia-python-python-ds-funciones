@@ -1,0 +1,1 @@
+> Cuando definan la función, en el `return`incluyan las dos listas separadas por una coma: `return lista1, lista2`. De esta manera la función devolverá una tupla con ambas listas.
