@@ -4,7 +4,7 @@ Por ejemplo, si queremos sumar dos números y después multiplicarlos por 3, pod
 
 ```python
 def suma_por_tres(numero1,numero2):
-    resultado_de_suma = sumar(numero1,numero2)
+  resultado_de_suma = sumar(numero1,numero2)
   return resultado_de_suma * 3 
 
 ```
