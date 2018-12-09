@@ -5,8 +5,9 @@ Para utilizar una función, ésta debe ser llamada desde el programa, con el nom
 La primera línea de la definición de una función contiene:
 
 * la palabra reservada `def`
-* el nombre de la función (la guía de estilo de Python recomienda escribir todos los caracteres en minúsculas separando las plabras por guiones bajos)
+* el nombre de la función (la guía de estilo de Python recomienda escribir todos los caracteres en minúsculas separando las palabras por guiones bajos)
 * paréntesis (que pueden incluir los argumentos de la función, como se explica más adelante)
+* Terminando con `:`
 
 
 Por comodidad, se puede indicar el final de la función con la palabra reservada `return` (más adelante se explica el uso de esta palabra reservada), aunque no es obligatorio.
