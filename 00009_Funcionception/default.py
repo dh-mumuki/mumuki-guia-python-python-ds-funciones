@@ -1,1 +1,1 @@
-doble_del_siguiente(
+cuadrado_de_suma(
