@@ -11,4 +11,4 @@ def suma_por_tres(numero1,numero2):
 
 Acá vemos que al ya tener la función **sumar()** definida, podemos llamarla dentro de otra función y hacernos el trabajo mas fácil.
 
-> Veamos si con la función `sumar()` podemos hacer una función `cuadrado_de_suma()` que tome un parámetro y cuadrado de la suma. 
+> Veamos si con la función `sumar()` podemos hacer una función `cuadrado_de_suma(num1, num2)` que tome un parámetro y cuadrado de la suma. 
