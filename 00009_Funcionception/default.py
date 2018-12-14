@@ -1,1 +1,0 @@
-cuadrado_de_suma(
