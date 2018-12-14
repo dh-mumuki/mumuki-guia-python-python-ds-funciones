@@ -8,7 +8,7 @@ Este argumento puede ser utilizado dentro del bloque de código de la función, 
 
 Definamos ahora una función que utiliza argumentos, en este caso lo único que va a hacer la función es recibir un valor e imprimir su tipo de datos.
 
-Acalración: La función type() devuelve el tipo de datos de la variable que se coloque dentro de los paréntesis. Es una función built-in de Python, es decir que esta incluida en el lenguaje.
+Acalración: El llamado a la clase type() devuelve el tipo de datos de la variable que se coloque dentro de los paréntesis. 
 
 ``` python
 def imprimir_tipo(argumento):
