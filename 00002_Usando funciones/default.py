@@ -1,1 +1,1 @@
-def producto(
+def mitad(
