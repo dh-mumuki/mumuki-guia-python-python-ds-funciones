@@ -1,7 +1,7 @@
 class TestFixtures(unittest.TestCase):
-  def mismo_signo(self):
+  def Test_2(self):
     self.assertEquals(cuadrado_de_suma(1, 2), 9)
     
-  def distinto_signo(self):
+  def Test_1(self):
     self.assertEquals(cuadrado_de_suma(-10, 3), 49)
   
