@@ -58,7 +58,7 @@ def duplicar(numero):
 ```
   * 7. En este punto, aparece la otra palabra clave, `return`. Con ella concluye la construcción de nuestra función, y antecede aquello que obtenemos cada vez que la ejecutamos.  En este caso, queremos que la función nos "devuelva" la impresión del valor de la multiplicación, de allí que escribamos `print(doble)` a continuación del `return`.
 
-Aquí concluye la definión de nuestra función. Sin embargo, aún no hemos hecho nada con ella, y de poco sirve un método que sólo sea definido y nunca utilizado...
+Aquí termina la definión de nuestra función. Sin embargo, aún no hemos hecho nada con ella, y de poco sirve un método que sólo sea definido y nunca utilizado...
 
 ```python
 def duplicar(numero):
@@ -68,6 +68,7 @@ def duplicar(numero):
   return print(doble)
 
 duplicar(3) # 8
+
 ム
 > 6
 ```
@@ -81,7 +82,9 @@ doble(5)
 
 ム
 > 10
+```
 
+```python
 doble(1.5)
 
 ム
