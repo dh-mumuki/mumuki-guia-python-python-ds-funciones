@@ -1,4 +1,4 @@
-> :memo: **¿Que devuelve el siguiente print?**
+> :memo: **¿Qué devuelve el siguiente `print()`?**
 
 ``` python
 def funcion(numero):
