@@ -1,4 +1,10 @@
-Entonces para armar una función hay cosas que no podemos dejar pasar. La palabra **def**, el _nombre de la función_, los _argumentos_ si se necesitan, el _código_ después de **:** y un **return** dentro del código si queremos que nos devuelva algo.
+Entonces, para construir una función hay ciertos elementos que deberemos tener siempre presentes:<br>
+  1. La palabra reservada `def`.<br>
+  2. El **nombre** que nosotros elegimos para la función.<br>
+  3. Los **argumentos** entre paréntesis, siempre que se necesiten.<br>
+  4. Los dos puntos (`:`), que dan cierre a la primera línea de la definición.<br>
+  5. El **cuerpo** de la función, como un bloque indentado.
+  6. El **return**, siempre que queramos que la función nos devuelva algo.
 
-> :memo: **Veamos si se va entendiendo: escribí ahora una función `mitad`, que tome un número y devuelva su mitad.**
+> :memo: **Veamos si quedó claro: escribí una función llamada `mitad()`, que tome un número, lo divida por 2 y devuelva este resultado.**
 
