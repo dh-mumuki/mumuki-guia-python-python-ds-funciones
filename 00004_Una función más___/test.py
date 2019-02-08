@@ -3,4 +3,4 @@ class TestFixtures(unittest.TestCase):
     self.assertEquals(contador([2, 5, 4, 8, 9, 3, 5 , 6]),  8, 'La funcion no devuelve la cantidad de elementos requerida')
     
   def test_listas_media(self):
-    self.assertEquals(media([2, 5, 4, 8, 9, 3, 5 , 6]),  5.25, 'La funcion no computa adecuadamente la media.')    
+    self.assertAlmostEqual(media([2, 5, 4, 8, 9, 3, 5 , 6]),  5.25, 'La funcion no computa adecuadamente la media.')    
