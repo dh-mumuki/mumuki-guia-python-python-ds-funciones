@@ -1,3 +1,3 @@
-Hasta acá vimos como trabajar con valores de distintos tipos en nuestros programas. ¿Pero qué es lo que vamos a hacer con esos valores?
+Hasta acá vimos como trabajar con valores de distintos tipos en nuestros programas. ¿Pero qué es lo que vamos a hacer con esos valores?aa
 
 Aprenderemos a continuación sobre las **funciones**. Una estructura muy común en todos los lenguajes de programación que nos permite definir conjuntos de instrucciones, para luego poder usarlos todas las veces que sea necesario sin necesidad de repetir todo nuestro código.
