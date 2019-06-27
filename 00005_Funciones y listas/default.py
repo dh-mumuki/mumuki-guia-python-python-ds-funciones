@@ -1,1 +1,1 @@
-def par_impar(
+def lista_par_impar(
