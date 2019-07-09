@@ -6,4 +6,5 @@ class TestFixtures(unittest.TestCase):
     self.assertEquals(media([2, 5, 4, 8, 9, 3, 5, 6, 10, 15]),  6, 'La funcion no computa adecuadamente la media.')
 
   def test_listas_sumatoria(self):
-    self.assertEquals(sumatoria([2, 5, 4, 8, 9, 3, 5, 6, 10, 15]),  74, 'La funcion no devuelve la suma de elementos requerida'
+    self.assertEquals(sumatoria([2, 5, 4, 8, 9, 3, 5, 6, 10, 15]),  74, 'La funcion no devuelve la suma de elementos requerida')
+    
