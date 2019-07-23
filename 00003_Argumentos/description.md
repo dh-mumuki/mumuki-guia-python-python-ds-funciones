@@ -51,4 +51,4 @@ Como podemos observar, los valores de los argumentos que indicamos entre parént
 
 ¡Ahora te toca a vos! :smile:
 
-> :memo: **Definí una función  que devuelva `True` si el tipo de dato es _string_, `False` si es un _integer_,  `True` si es un _float_ y`False` si es un _booleano_**.
+> :memo: **Definí una funciónque reciba un dato y devuelva `True` si el tipo de dato es _string_, `False` si es un _integer_,  `True` si es un _float_ y`False` si es un _booleano_**.
