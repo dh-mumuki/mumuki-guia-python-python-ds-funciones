@@ -1,0 +1,1 @@
+Para dividir, contás con el operador `/`.
